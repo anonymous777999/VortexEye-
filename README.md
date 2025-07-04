@@ -70,7 +70,6 @@ All output will be logged automatically under the `/logs` directory. Files are t
 ## 🧙 Author
 
 **RedVortex** – A student of CyberSecurity and Ethical Hacking, forging his own elite path.  
-🔥 Follow the mission on GitHub or contact for the Pro version.
 
 ---
 
