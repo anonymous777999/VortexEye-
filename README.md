@@ -1,5 +1,4 @@
-                                                       
-**VortexEye — Post-Exploitation Recon Toolkit**
+                                                       **VortexEye — Post-Exploitation Recon Toolkit**
 **Overview**
 VortexEye is a bash-based reconnaissance toolkit crafted for post-exploitation scenarios. Built by RedVortex, it streamlines internal enumeration—enabling asset discovery, user and service enumeration, network mapping, and threat assessment—all from a compromised host.
 
