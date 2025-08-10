@@ -1,8 +1,27 @@
-# 🔥 RedVortex Recon Toolkit
+**__     __         _                 _____           
+\ \   / /__  _ __| |_ _____  __    | ____|   _  ___ 
+ \ \ / / _ \| '__| __/ _ \ \/ /____|  _|| | | |/ _ \
+  \ V / (_) | |  | ||  __/>  <_____| |__| |_| |  __/
+   \_/ \___/|_|   \__\___/_/\_\    |_____\__, |\___|
+                                         |___/      
+**
+                                                            
+**VortexEye — Post-Exploitation Recon Toolkit**
+**Overview**
+VortexEye is a bash-based reconnaissance toolkit crafted for post-exploitation scenarios. Built by RedVortex, it streamlines internal enumeration—enabling asset discovery, user and service enumeration, network mapping, and threat assessment—all from a compromised host.
 
-The **RedVortex Recon Toolkit** is a powerful post-exploitation and information gathering tool for Linux systems. Designed for hackers, by a hacker.
 
-> ⚠️ Warning: This tool is **powerful**. Misuse may lead to unintended consequences. Use ethically and responsibly.
+**Features:**
+Fast and lightweight reconnaissance suite for post-exploitation.
+Discovers network details, running processes, and user accounts.
+Enumerates open ports, services, and system information.
+Designed to support red team and SOC operations with quick data output.
+
+**Disclaimer**
+Only use VortexEye in environments you own or with explicit permission.
+Unauthorized use is illegal and unethical. This tool is intended for training, pentesting, and responsible security research only.
+
+> **⚠️ Warning:** This tool is **powerful**. Misuse may lead to unintended consequences. Use ethically and responsibly.
 
 ---
 
@@ -68,8 +87,9 @@ All output will be logged automatically under the `/logs` directory. Files are t
 ---
 
 ## 🧙 Author
-
-**RedVortex** – A student of CyberSecurity and Ethical Hacking, forging his own elite path.  
+RedVortex — Cybersecurity student, SOC enthusiast, and offensive security builder.
+Connect on LinkedIn: (https://www.linkedin.com/in/shubham-gautam-225187218/)
+Check out more projects: https://github.com/anonymous777999
 
 ---
 
