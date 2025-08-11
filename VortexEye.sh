@@ -46,6 +46,8 @@ banner() {
   BOLD="\e[1m"
 
   # Line Art
+  figlet "Vortex-Eye" | lolcat
+
 echo -e "${MAGENTA}${BOLD}"
 echo -e "\e[1;34m╔═════════════════════════════════════════════════════════════╗\e[0m"
 echo -e "\e[1;34m║\e[0m               \e[1;31m🔥 RedVortex Recon Toolkit 🔥  \e[0m               \e[1;34m║\e[0m"
@@ -55,7 +57,7 @@ echo -e "\e[1;34m║\e[0m \e[1;36mVersion :\e[0m \e[1;33mv1.0\e[0m"
 echo -e "\e[1;34m║\e[0m \e[1;36mPurpose :\e[0m \e[1;33mPost-Exploitation Recon | Target Profiling\e[0m"
 echo -e "\e[1;34m╠═════════════════════════════════════════════════════════════╣\e[0m"
 echo -e "\e[1;34m║\e[0m \e[1;36mSystem :\e[0m \e[1;33mkali  |  Kali GNU/Linux Rolling\e[0m"
-echo -e "\e[1;34m║\e[0m \e[1;36mUser   :\e[0m \e[1;33mkali  |  Fri Jul  4 05:55:10 PM EDT 2025\e[0m"
+echo -e "\e[1;34m║\e[0m \e[1;36mUser   :\e[0m \e[1;33m$(whoami)  |  Fri Jul  4 05:55:10 PM EDT 2025\e[0m"
 echo -e "\e[1;34m╚═════════════════════════════════════════════════════════════╝\e[0m"
   echo -e "${RESET}"
 }
@@ -88,7 +90,7 @@ netinfo () {
     echo -e "${BOLD_RED}═══════════════════════════════════════════════════════════════════════════════${RESET}"
     echo -e "${BOLD_GREEN}✅ Local IP         → ${WHITE}$(ip r | grep -oP '(?<=src )\d+\.\d+\.\d+\.\d+' | head -1)"
     echo -e "${BOLD_GREEN}✅ Public IP        → ${WHITE}$(curl -s ifconfig.me)"
-    echo -e "${BOLD_GREEN}✅ MAC Address      → ${WHITE}$(cat /sys/class/net/$iface/address)"
+    echo -e "${BOLD_GREEN}✅ MAC Address      → ${WHITE}$(cat /sys/class/net/eth0/address)"
     echo -e "${BOLD_GREEN}✅ Default Gateway  → ${WHITE}$(ip route | grep default | cut -d ' ' -f3)"
     echo -e "${BOLD_GREEN}✅ DNS Servers      → ${WHITE}$(grep '^nameserver' /etc/resolv.conf | awk '{print $2}' | paste -sd ', ')"
     echo -e "${BOLD_GREEN}✅ Open Ports       → ${WHITE}$(ss -tuln | grep -c LISTEN)"
